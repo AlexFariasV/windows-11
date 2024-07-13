@@ -1,0 +1,132 @@
+:root {
+    --white: #fff
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+
+    body {
+        background-image: url("../img/image\ 1.jpg");
+        height: 100vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .No {
+            display: none;
+            font-size: 4rem;
+            color: var(--white);
+            margin: 30px;
+
+        }
+
+        main {
+            padding: 5px;
+
+            .content-box {
+
+                display: flex;
+                gap: 10px;
+                cursor: pointer;
+                padding: 10px;
+
+                img {
+                    padding: 10px;
+                    transition: 100ms all ease-in-out;
+
+                    &:hover {
+                        background-color: rgb(0, 0, 0, .2);
+                        border-radius: 2px;
+                    }
+                }
+            }
+
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            max-width: 100%;
+            background: rgb(255, 255, 255, .8);
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            &-ConteinerWidgets {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                border: none;
+                background: rgb(255, 255, 255, .8);
+                cursor: pointer;
+                padding: 6px 20px;
+                transition: all 200ms ease-in-out;
+
+                &:hover {
+                    background-color: rgb(0, 0, 0, .2)
+                }
+            }
+
+            &-ContainerSearch {
+                gap: 15px;
+                display: flex;
+
+                img {
+                    cursor: pointer;
+                }
+            }
+
+            .Search {
+
+                display: flex;
+                max-width: 280px;
+                width: 100%;
+                background: var(--white);
+                margin: 2px 0;
+                padding: 5px 20px;
+                border-radius: 20px;
+                border: 1px solid var(--white);
+
+                input {
+                    margin-left: 5px;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    padding-left: 10px;
+                    background: var(--white);
+                    height: 100%;
+                    font-size: 1.1rem;
+
+                }
+
+            }
+
+
+            &-ContainerHoras {
+                margin-right: 10px;
+                text-align: right;
+            }
+
+        }
+    }
+}
+
+@media(max-width:1200px) {
+
+    main,
+    .footer {
+        display: none !important;
+    }
+
+    .No {
+        display: block !important;
+    }
+}
