@@ -15,7 +15,8 @@ Este projeto recria uma interface básica do Windows 11 para fins de aprendizado
 ## Tecnologias Utilizadas
 
 - **HTML**: Estruturação da página.
-- **SCSS**: Estilização e layout da interface.
+- **CSS**: Estilização e layout da interface.
+- **Sass**: Pré-processador CSS para escrever estilos de forma mais eficiente e organizada.
 
 ## Como Executar o Projeto
 
