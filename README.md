@@ -2,8 +2,7 @@
 
 ![Captura de tela 2024-08-17 222414](https://github.com/user-attachments/assets/130eccaf-1b0e-42c7-8e69-6c24b7d4adeb)
 
-
-Este projeto é uma prática de desenvolvimento front-end onde criei uma interface inspirada no Windows 11 utilizando HTML e SCSS. O objetivo é melhorar minhas habilidades em design de interfaces e estilização web.
+- Este projeto é uma prática de desenvolvimento front-end onde criei uma interface inspirada no Windows 11 utilizando HTML e SCSS. O objetivo é melhorar minhas habilidades em design de interfaces e estilização web.
 
 ## Descrição
 
